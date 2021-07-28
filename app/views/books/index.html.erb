@@ -1,7 +1,10 @@
+
+<div class="container">
+
 <%= render 'shared/navbar' %>
 <p id="notice"><%= notice %></p>
 <h1>Books</h1>
-<table>
+<table class="table table-dark">
     <thead>
         <tr>
         <th><%= sort_link(@q, :title, 'Titulo') %></th>
@@ -29,3 +32,5 @@
 </table>
 <br>
 <%= link_to 'New Book', books_new_path %>
+
+</div>

@@ -1,23 +1,26 @@
-<p id="notice"><%= notice %></p>
-<p>
-  <strong>Title:</strong>
-  <%= @book.title %>
-</p>
-<p>
-  <strong>Author:</strong>
-  <%= @book.author %>
-</p>
-<p>
-  <strong>Status:</strong>
-  <%= @book.status %>
-</p>
-<p>
-  <strong>Borrowing date:</strong>
-  <%= @book.borrowing_date %>
-</p>
-<p>
-  <strong>Return date:</strong>
-  <%= @book.return_date %>
-</p>
+<div class="container pt-4">
 
-<%= link_to 'Ir al root', root_path %>
+  <p id="notice"><%= notice %></p>
+  <p>
+    <strong>Title:</strong>
+    <%= @book.title %>
+  </p>
+  <p>
+    <strong>Author:</strong>
+    <%= @book.author %>
+  </p>
+  <p>
+    <strong>Status:</strong>
+    <%= @book.status %>
+  </p>
+  <p>
+    <strong>Borrowing date:</strong>
+    <%= @book.borrowing_date %>
+  </p>
+  <p>
+    <strong>Return date:</strong>
+    <%= @book.return_date %>
+  </p>
+
+  <%= link_to 'Ir al root', root_path %>
+</div>
